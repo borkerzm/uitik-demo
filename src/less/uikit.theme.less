@@ -9,3 +9,90 @@
 //
 
 @import "theme/_import.less";
+#header .nav-pc{
+  height: 9.375rem;
+  background: #006fde;
+  display: block;
+  .icon{
+    background: #e5e5e5;
+    border-radius: 50%;
+    width: 30px;
+    height: 1.875rem;
+    text-transform: uppercase;
+    a{
+      color: #676767;
+      font-size: 14px;
+      line-height: 30px;
+      display: block;
+      img{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        margin-top: -4px;
+      }
+    }
+  }
+  a{
+    color: #fff;
+    font-size: 16px;
+  }
+  .uk-container{
+    padding: 0 5.625rem;
+  }
+  .uk-navbar-container li>a{
+    padding: 0 2.0625rem ;
+  }
+}
+#header .uk-navbar-toggle{
+  color: rgba(255,255,255,0.6);
+  &:hover{
+    color: #fff;
+  }
+}
+#header .uk-offcanvas-bar{
+  background: #fff;
+}
+@media (min-width: 960px) {
+  #header .nav-pc  .uk-container{
+    padding: 0 0;
+  }
+  #header .nav-pc{
+    padding: 0 1.25rem;
+  }
+  #header .nav-pc .uk-navbar-container li>a{
+    padding: 0 0.9375rem ;
+  }
+}
+@media (min-width: 1200px) {
+  #header .nav-pc  .uk-container{
+    padding: 0 0;
+  }
+  #header .nav-pc{
+    padding: 0 3.125rem;
+  }
+  #header .nav-pc .uk-navbar-container li>a{
+    padding: 0 1.5625rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .nav-pc  .uk-container{
+    padding: 0 0;
+  }
+  #header .nav-pc{
+    padding: 0 5rem;
+  }
+  #header .nav-pc .uk-navbar-container li>a{
+    padding: 0 1.875rem;
+  }
+}
+@media  (min-width: 1600px)  {
+  #header .nav-pc  .uk-container{
+    padding: 0 5.625rem;
+  }
+  #header .nav-pc{
+    padding: 0 6.25rem;
+  }
+  #header .nav-pc .uk-navbar-container li>a{
+    padding: 0 2.0625rem ;
+  }
+}
